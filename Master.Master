@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="MasterProject.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/Master1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+      
+       <div id="container">
+    <div id ="header" >
+        <div id ="head-part">
+             <div id ="logo" class ="heading">
+                 <img src="images/adidas.png" />
+                 </div>
+                    <div class="heading" id="site-name-container">
+
+                     <div  id="site-name"> <h1>Popeye-Store</h1>
+                    </div>
+                    </div>
+                    </div>
+                    
+
+    </div>
+   <div id="wrapper" >
+        <div id ="navigation">
+            <ul class="nav-list">
+       <li><a href="Home.aspx">Home</a></li>
+       <li><a href="About.aspx">About</a></li>
+       <li>Contact</li>
+       <li>Feedback</li>
+   </ul>
+</div>
+    <div id="master"> <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>    </div>
+    
+    </div>
+    <div id="footer" >
+        <h1>@Copyright -All Rights Reserved..</h1>
+    </div>
+    </div>
+
+        
+        
+    </form>
+</body>
+</html>
