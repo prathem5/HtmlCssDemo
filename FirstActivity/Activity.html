@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <style>
+        .p1 {
+            margin: 0 20px;
+            background-color: #FF00FF;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10pt;
+            font-weight: normal;
+            text-align: left;
+        }
+
+        .p2 {
+            margin: 0 30px;
+            background-color: black;
+            color: #FFFF00;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10pt;
+            font-weight: normal;
+        }
+
+        .p3 {
+            text-indent: 38px;
+            background-color: rgb(204, 51, 51);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10pt;
+            font-weight: normal;
+        }
+
+        ol.roman {
+            list-style-type: upper-roman;
+        }
+
+        ul {
+            margin: 30px;
+        }
+
+        .book {
+            margin: 20px;
+            list-style-image: url('book.png ');
+            list-style-position: inside;
+        }
+
+        .box {
+            width: 200px;
+            border: 10px solid #99c;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        a:link {
+            color: red;
+        }
+
+        a:visited {
+            color: yellow;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        .psuedo::first-line {
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading with h1</h1>
+    <p class="p1">This is our first paragraph</p>
+    <h2>Heading with h2</h2>
+    <p class="p2">This is our second paragraph</p>
+    <h3>Heading with h3</h3>
+    <p class="p3">This is our third paragraph</p>
+    <h4>Heading with h4</h4>
+    <p class="p1">This is our fourth paragraph</p>
+    <h5>Heading with h5</h5>
+    <p class="p2">This is our fifth paragraph</p>
+    <h6>Heading with h6</h6>
+    <p class="p3">This is our sixth paragraph</p>
+    <ol class="roman">
+        <li><a href="#">football</a></li>
+        <li>volleyball</li>
+        <li>coding</li>
+    </ol>
+    <ul class="book">
+        <li>book1</li>
+        <li>book2</li>
+    </ul>
+    <p class="psuedo">
+        Create a para tag with some text in the
+        existing document.Add some style to only first
+        line of the para tag using pseudo-elementNote that there is variance among browsers regarding behavior when a block element is placed first within a list element declared as list-style-position: inside. Chrome and Safari both place this element on the same line as the marker box, whereas Firefox, Internet Explorer, and Opera place it on the next line. For more information on this, see bug 36854
+    </p>
+    <div class="box"></div>
+</body>
+</html>
+

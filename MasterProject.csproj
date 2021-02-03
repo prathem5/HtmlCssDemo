@@ -71,6 +71,7 @@
     <Content Include="css\Master1.css" />
     <Content Include="css\Master2.css" />
     <Content Include="css\Home.css" />
+    <Content Include="FirstActivity\Activity.html" />
     <Content Include="images\adidas.png" />
     <Content Include="images\milky-way.jpg" />
     <Content Include="Web.config" />
